@@ -1,6 +1,4 @@
-ifeq ($(CONFIG_OPPO_FINGERPRINT_QCOM),y)
-PROJECT_NAME = full_oppo6771
-else ifeq ($(CONFIG_OPPO_FINGERPRINT_MTK),y)
+ifeq ($(CONFIG_OPPO_FINGERPRINT_MTK),y)
 PROJECT_NAME = full_oppo6771
 endif
 
